@@ -80,7 +80,7 @@ def find_bugs(url):
         print(f"Unexpected error: {e}")
 
 def main():
-    url = input(f"{g}[+]{w}Please enter the URLs you want to check: ")
+    url = input(f"{g}[+]{w}Please enter the URLs you want to check: ").strip()
         
 
     if not url:
