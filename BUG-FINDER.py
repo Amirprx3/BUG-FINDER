@@ -81,7 +81,7 @@ def find_bugs(url):
 
 def main():
     url = input(f"{g}[+]{w}Please enter the URLs you want to check: ")
-url = url.strip()
+    url = url.strip()
         
 
     if not url:
